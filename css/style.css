@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Great+Vibes&family=Heebo:wght@100;300;400;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /*  @media only screen and (max-width: $bp-largest) {
+        font-size: 50%;
+    }*/ }
+
+body {
+  font-family: 'Heebo', sans-serif;
+  color: #6D5D4B;
+  font-weight: 300;
+  line-height: 1.6; }
+
+hr {
+  width: 86rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border: 1px solid #E0E0E0; }
+
+.header {
+  display: flex; }
+  .header_typography {
+    display: flex;
+    flex-direction: column;
+    width: 60%; }
+    .header_typography_heading {
+      font-weight: 900;
+      font-size: 5rem;
+      color: #21243d;
+      margin-bottom: 5rem; }
+    .header_typography_text {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #21243d; }
+    .header_typography_btn {
+      width: 20rem;
+      height: 5rem;
+      left: 19rem;
+      top: 48rem;
+      background: #ff6464;
+      border-radius: 2px;
+      margin-left: 20rem;
+      margin-bottom: 4rem;
+      background-color: #FF6464;
+      cursor: pointer; }
+  .header_photo {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    margin-left: 15rem;
+    margin-right: 15rem; }
+
+.navigation {
+  margin-top: 5rem;
+  margin-bottom: 10rem; }
+  .navigation_list {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: flex-end; }
+  .navigation_item {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: right;
+    color: #000000;
+    padding-right: 5rem;
+    text-decoration: none; }
+
+.post {
+  display: flex;
+  flex-direction: column;
+  background: #EDF7FA; }
+  .post_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .post_word {
+    padding: 4rem 0 0 4rem;
+    font-size: 2rem;
+    line-height: 6rem;
+    color: #21243d; }
+  .post_view {
+    font-size: 1.6rem;
+    text-align: right;
+    padding: 4rem 4rem 0 0;
+    color: #21243d;
+    text-decoration: none; }
+  .post_box {
+    display: block;
+    width: 42rem;
+    height: 30rem;
+    left: 19rem;
+    top: 66rem;
+    background: #ffffff;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    margin-bottom: 10rem; }
+    .post_box_heading {
+      font-weight: bold;
+      font-size: 2.6rem;
+      line-height: 4rem;
+      color: #21243d;
+      margin: 40px 20px 20px 20px; }
+    .post_box_detail {
+      display: flex;
+      justify-content: space-between;
+      font-size: 1.8rem;
+      line-height: 2.6rem;
+      color: #21243d;
+      margin: 10px 20px 20px 20px; }
+    .post_box_text {
+      font-size: 1.6rem;
+      line-height: 2.3rem;
+      color: #21243d;
+      margin: 10px 20px 20px 20px; }
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+
+.feature {
+  padding: 4rem 0 0 4rem; }
+  .feature_heading {
+    font-size: 2rem;
+    color: #21243D;
+    margin-bottom: 10rem; }
+  .feature-box {
+    display: flex;
+    justify-content: center;
+    padding-left: 10rem;
+    background-color: white;
+    padding: 4rem 8rem 4rem 8rem;
+    margin-left: 20rem;
+    margin-right: 20rem; }
+    .feature-box_img {
+      display: block;
+      width: 18rem;
+      height: 13rem;
+      border-radius: .5rem; }
+    .feature-box_typography {
+      display: block;
+      padding-left: 10rem; }
+    .feature-box_heading {
+      font-size: 3rem; }
+    .feature-box_detail {
+      display: flex;
+      flex-direction: row; }
+    .feature-box_date {
+      display: inline-block;
+      width: 6rem;
+      height: 2.5rem;
+      background: #142850;
+      border-radius: 1.6rem;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1.8rem;
+      color: #FFFFFF; }
+    .feature-box_discription {
+      padding-left: 5rem; }
+    .feature-box_text {
+      font-size: 1.6rem;
+      color: #21243D; }
+
+.footer {
+  display: block;
+  padding-left: 80rem;
+  margin-top: 20rem; }
+  .footer_copyright {
+    padding-left: 10rem; }
+
+ion-icon {
+  font-size: 6rem;
+  color: #21243D; }
